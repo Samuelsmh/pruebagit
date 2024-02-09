@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: none;
+    padding: 23%;
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    /* Ajusta el tamaño de la imagen para cubrir el cuerpo */
+    background-position: center;
+    /* Centra la imagen */
+    /* Otros estilos opcionales */
+}
+
+#intro {
+    background-color: rgba(100, 94, 94, 0.5);
+    /* Rojo con una opacidad del 50% */
+    background-size: cover;
+    /* Ajusta el tamaño de la imagen para cubrir el encabezado */
+    background-position: top;
+    /* Centra la imagen */
+    margin-top: 50px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    /* Altura del div */
+    z-index: 9999;
+    /* Coloca el div encima de otros elementos */
+
+}
+
+#game {
+    display: none;
+}
+
+#pistas img {
+    cursor: pointer;
+    margin: 10px;
+    max-width: 200px;
+}
+
+#formulario {
+    margin-top: 20px;
+}
+
+#carrusel img {
+    display: none;
+    max-width: 400px;
+}
+
+#final {
+    margin-top: 50px;
+}

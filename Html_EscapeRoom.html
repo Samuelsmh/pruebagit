@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Room</title>
+    <link rel="stylesheet" href="Css_EscapeRoom.css">
+</head>
+
+<body>
+        <div id="intro">
+            <h1>Bienvenidos a laboratorio del Dr.Archibald</h1>
+            <button id="startButton">¿Comenzamos?</button>
+        </div>
+
+        <div id="game" style="display: none;">
+            <div id="pistas">
+                <img src="" class="pista">
+                <img src="" class="pista">
+                <!-- Agrega más imágenes de pistas aquí -->
+            </div>
+
+            <div id="formulario" style="display: none;">
+                <form id="respuestaForm">
+                    <label for="respuesta">Ingresa la respuesta:</label>
+                    <input type="text" id="respuesta">
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+
+            <div id="carrusel">
+                <img src="carrusel1.jpg">
+                <img src="carrusel2.jpg">
+                <!-- Agrega más imágenes para el carrusel aquí -->
+            </div>
+
+            <div id="timer">Tiempo restante: <span id="tiempo">10:00</span></div>
+        </div>
+
+        <div id="final" style="display: none;">
+            <h2>¡Enhorabuena, lo has conseguido en <span id="tiempoFinal"></span> minutos!</h2>
+        </div>
+    <script src="JavaScrpt_EscapeRoom.js"></script>
+</body>
+
+</html>
